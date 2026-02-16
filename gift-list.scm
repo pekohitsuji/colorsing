@@ -51,7 +51,8 @@
 
 (define (show-foot files)
   (show #t
-        "\n---\n"
+        ;; "\n---\n"
+        nl
         "生成: "
         (date-year today) "年"
         (padded 2 (date-month today)) "月"
