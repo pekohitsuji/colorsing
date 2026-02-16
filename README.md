@@ -3,4 +3,4 @@
 
 ## ギフト
 
-- [ギフト一覧](gift-list.md)
+- [ギフト一覧](gift-list.md) [ハート限定](gift-list-heart.md)
