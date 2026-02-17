@@ -9,8 +9,8 @@
 | <img height="30px" src="img/gift/00090-001.png"> |     90 |  |
 | <img height="30px" src="img/gift/00099-001.png"> |     99 | 1曲お願いします |
 | <img height="30px" src="img/gift/00100-001.png"> |    100 | ハピバ風船 |
-| <img height="30px" src="img/gift/00100-002.png"> |    100 | ハートマジック |
-| <img height="30px" src="img/gift/00100-003.png"> |    100 |  |
+| <img height="30px" src="img/gift/00100-002.png"> |    100 | 1曲お願いします |
+| <img height="30px" src="img/gift/00100-003.png"> |    100 | ハートマジック |
 | <img height="30px" src="img/gift/00111-001.png"> |    111 | おんぷのシャワー |
 | <img height="30px" src="img/gift/00111-002.png"> |    111 | きらきらスター |
 | <img height="30px" src="img/gift/00111-003.png"> |    111 | しゅわしゅわハート |
@@ -116,4 +116,4 @@
 | <img height="30px" src="img/gift/05600-001.png"> |  5,600 | 願いのミルキーウェイ |
 
 生成: 2026年 2月18日
-名称未設定: 22件
+名称未設定: 21件
