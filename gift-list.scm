@@ -33,9 +33,8 @@
 (define (show-head files desc)
   (show #t
         "## ColorSing ギフト一覧 "
-        (date-year today) "年" (padded 2 (date-month today)) "月 "
-        (length files) "種類\n"
-        desc nl
+        (date-year today) "年" (padded 2 (date-month today)) "月\n"
+        desc nl (length files) "種類\n"
         "| 画像 | コイン | 名称 |\n"
         "|:----:|-------:|:-----|\n"))
 
