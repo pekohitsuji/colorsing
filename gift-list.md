@@ -21,7 +21,7 @@
 | <img height="30px" src="img/gift/00144-001.png"> |    144 |  |
 | <img height="30px" src="img/gift/00150-001.png"> |    150 | ほしきらきら |
 | <img height="30px" src="img/gift/00150-002.png"> |    150 | 炎 |
-| <img height="30px" src="img/gift/00166-001.png"> |    166 |  |
+| <img height="30px" src="img/gift/00166-001.png"> |    166 | 羽根 |
 | <img height="30px" src="img/gift/00177-001.png"> |    177 |  |
 | <img height="30px" src="img/gift/00180-001.png"> |    180 | シュガーエナジー |
 | <img height="30px" src="img/gift/00188-001.png"> |    188 |  |
@@ -31,9 +31,9 @@
 | <img height="30px" src="img/gift/00222-001.png"> |    222 | おだやかハナミズキ |
 | <img height="30px" src="img/gift/00222-002.png"> |    222 | キンキラ紙吹雪 |
 | <img height="30px" src="img/gift/00222-003.png"> |    222 | 閃光 |
-| <img height="30px" src="img/gift/00222-004.png"> |    222 |  |
+| <img height="30px" src="img/gift/00222-004.png"> |    222 | フラワーシャワー |
 | <img height="30px" src="img/gift/00222-005.png"> |    222 | ふわふわネオン |
-| <img height="30px" src="img/gift/00234-001.png"> |    234 |  |
+| <img height="30px" src="img/gift/00234-001.png"> |    234 | ジュエリーシャワー |
 | <img height="30px" src="img/gift/00244-001.png"> |    244 |  |
 | <img height="30px" src="img/gift/00255-001.png"> |    255 | ゴールドハートレイン |
 | <img height="30px" src="img/gift/00260-001.png"> |    260 |  |
@@ -41,8 +41,8 @@
 | <img height="30px" src="img/gift/00280-001.png"> |    280 |  |
 | <img height="30px" src="img/gift/00288-001.png"> |    288 | ハートひらひら |
 | <img height="30px" src="img/gift/00288-002.png"> |    288 |  |
-| <img height="30px" src="img/gift/00288-003.png"> |    288 | ブレードウインド |
-| <img height="30px" src="img/gift/00289-001.png"> |    289 |  |
+| <img height="30px" src="img/gift/00288-003.png"> |    288 | ブレードウィンド |
+| <img height="30px" src="img/gift/00289-001.png"> |    289 | フルーツパーティー |
 | <img height="30px" src="img/gift/00300-001.png"> |    300 | ギラギラ |
 | <img height="30px" src="img/gift/00321-001.png"> |    321 | ポップンスパーク |
 | <img height="30px" src="img/gift/00330-001.png"> |    330 | 夕暮れ渚の水平線 |
@@ -118,5 +118,5 @@
 | <img height="30px" src="img/gift/04777-001.png"> |  4,777 |  |
 | <img height="30px" src="img/gift/05600-001.png"> |  5,600 | 願いのミルキーウェイ |
 
-生成: 2026年 2月17日
-名称未設定: 52件
+生成: 2026年 2月18日
+名称未設定: 48件

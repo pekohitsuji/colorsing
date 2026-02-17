@@ -12,7 +12,7 @@ function filter() {
 
 gosh ./gift-list '70 コイン以上' img/gift/?????-???.png | \
     filter > gift-list.md
-gosh ./gift-list 'ハート限定' \
+gosh ./gift-list 'よこたんバレンタイン' \
      img/gift/{00255-001,00288-001,00321-001,00399-001,01111-001,01214-001,01222-003,03939-001}.png | \
     filter > gift-list-heart.md
 
