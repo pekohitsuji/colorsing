@@ -3,7 +3,7 @@
 
 ## ギフト
 
-[ギフト一覧](gift-list.md)
+[70コイン以上](gift-list.md)
 [ハート限定](gift-list-heart.md)
 
 ## 出席で得られるコイン数の目安
