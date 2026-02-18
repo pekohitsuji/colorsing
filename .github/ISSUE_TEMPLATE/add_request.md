@@ -6,18 +6,18 @@ labels: [add]
 assignees: []
 ---
 
-## コイン数 / Coin
+## コイン数 / Number of coins
 
-追加してほしいギフトのコイン数を教えてください
-/ Please tell us the coin amount for the gift you would like to have added.
+追加してほしいギフトのコイン数を教えてください  
+/ Please provide the number of coins for the gift you would like to add.
 
 ## ギフト名 / Gift name
 
-ギフト名を教えてください
-/ Please tell us the gift name.
+ギフト名を教えてください  
+/ Please provide the name of the gift.
 
-## 補足 (任意) / Additional context (Optional)
+## 補足情報 (任意) / Additional context (Optional)
 
-スクリーンショット、参考サイトURL があれば教えてください
-/ Please let us know if you have a screenshot or a reference URL.
+スクリーンショット、参考サイトURL があれば教えてください  
+/ If available, please provide a screenshot or reference URL.
 

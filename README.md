@@ -42,7 +42,7 @@
 ## 開発用メモ
 
 - 自由にスクリプトを試せるように
-  [.gitignore](.gitignore) で zzz.scm と zzz.sh を無視している。
+  [.gitignore](.gitignore) で zzz.* を無視している。
 - pull リクエストは受けない (そもそも ないと思うが)
 - issue のフォームは今後 以下のテンプレートを用意する予定
 
