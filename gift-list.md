@@ -1,14 +1,14 @@
 ## ColorSing ギフト一覧 2026年 2月
 全種
 113種類
-名称未設定: 21件
+名称未設定: 20件
 | 画像 | コイン | 名称 |
 |:----:|-------:|:-----|
 | <img height="30px" src="img/gift/00004-001.png"> |      4 | たいよう |
 | <img height="30px" src="img/gift/00004-002.png"> |      4 | はなはな |
 | <img height="30px" src="img/gift/00070-001.png"> |     70 | クラッカー |
 | <img height="30px" src="img/gift/00088-001.png"> |     88 | シャボン |
-| <img height="30px" src="img/gift/00088-002.png"> |     88 |  |
+| <img height="30px" src="img/gift/00088-002.png"> |     88 | 拍手喝采 |
 | <img height="30px" src="img/gift/00090-001.png"> |     90 |  |
 | <img height="30px" src="img/gift/00099-001.png"> |     99 | 1曲お願いします |
 | <img height="30px" src="img/gift/00100-001.png"> |    100 | ハピバ風船 |
