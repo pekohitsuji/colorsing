@@ -10,9 +10,15 @@ function filter() {
     sed '/<header /,/<\/header>/d'
 }
 
-gosh ./gift-list '70 コイン以上' \
+gosh ./gift-list '全種' \
      img/gift/?????-???.png \
     | filter > gift-list.md
+
+gosh ./gift-list '70 コイン以上' \
+     img/gift/000[7-9][0-9]-???.png \
+     img/gift/00[1-9][0-9][0-9]-???.png \
+     img/gift/0[1-9][0-9][0-9][0-9]-???.png \
+    | filter > gift-list-effect.md
 
 gosh ./gift-list 'よこたんバレンタイン' \
      img/gift/{00255-001,00288-001,00321-001,00399-001}.png \
@@ -20,8 +26,11 @@ gosh ./gift-list 'よこたんバレンタイン' \
     | filter > gift-list-valentine.md
 
 
-trans "70コイン以上" gift-list.md \
+trans "全種" gift-list.md \
     | filter > gift-list.html
+
+trans "70コイン以上" gift-list-effect.md \
+    | filter > gift-list-effect.html
 
 trans "よこたんバレンタイン"   gift-list-valentine.md \
     | filter > gift-list-valentine.html

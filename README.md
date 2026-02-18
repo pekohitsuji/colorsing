@@ -3,8 +3,8 @@
 
 ## ギフト
 
-[70コイン以上](gift-list.md)
-[よこたんバレンタイン](gift-list-valentine.md)
+- [全種](gift-list.md) [70コイン以上](gift-list-effect.md)
+- よこたん [バレンタイン](gift-list-valentine.md)
 
 ## 出席で得られるコイン数の目安
 スター x3.5 のとき
