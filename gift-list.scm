@@ -35,6 +35,7 @@
         "## ColorSing ギフト一覧 "
         (date-year today) "年" (padded 2 (date-month today)) "月\n"
         desc nl (length files) "種類\n"
+        "名称未設定: " (no-name files) "件\n"
         "| 画像 | コイン | 名称 |\n"
         "|:----:|-------:|:-----|\n"))
 
@@ -55,8 +56,7 @@
         "生成: "
         (date-year today) "年"
         (padded 2 (date-month today)) "月"
-        (padded 2 (date-day today)) "日\n"
-        "名称未設定: " (no-name files) "件\n"))
+        (padded 2 (date-day today)) "日\n"))
 
 (define (show-markdown files desc)
   (show-head files desc)
