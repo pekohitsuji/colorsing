@@ -1,7 +1,7 @@
 ## ColorSing ギフト一覧 2026年 2月
 全種
 113種類
-名称未設定: 20件
+名称未設定: 12件
 | 画像 | コイン | 名称 |
 |:----:|-------:|:-----|
 | <img height="30px" src="img/gift/00004-001.png"> |      4 | たいよう |
@@ -9,7 +9,7 @@
 | <img height="30px" src="img/gift/00070-001.png"> |     70 | クラッカー |
 | <img height="30px" src="img/gift/00088-001.png"> |     88 | シャボン |
 | <img height="30px" src="img/gift/00088-002.png"> |     88 | 拍手喝采 |
-| <img height="30px" src="img/gift/00090-001.png"> |     90 |  |
+| <img height="30px" src="img/gift/00090-001.png"> |     90 | かんぱーい！ |
 | <img height="30px" src="img/gift/00099-001.png"> |     99 | 1曲お願いします |
 | <img height="30px" src="img/gift/00100-001.png"> |    100 | ハピバ風船 |
 | <img height="30px" src="img/gift/00100-002.png"> |    100 | 1曲お願いします |
@@ -39,7 +39,7 @@
 | <img height="30px" src="img/gift/00234-001.png"> |    234 | ジュエリーシャワー |
 | <img height="30px" src="img/gift/00244-001.png"> |    244 | 漆黒と真紅の調べ |
 | <img height="30px" src="img/gift/00255-001.png"> |    255 | ゴールドハートレイン |
-| <img height="30px" src="img/gift/00260-001.png"> |    260 |  |
+| <img height="30px" src="img/gift/00260-001.png"> |    260 | 360°ペンライト ホワイト |
 | <img height="30px" src="img/gift/00270-001.png"> |    270 | ゴールデンバルーン |
 | <img height="30px" src="img/gift/00280-001.png"> |    280 | 空に快晴 |
 | <img height="30px" src="img/gift/00288-001.png"> |    288 | ハートひらひら |
@@ -64,7 +64,7 @@
 | <img height="30px" src="img/gift/00444-001.png"> |    444 | あじさい |
 | <img height="30px" src="img/gift/00456-001.png"> |    456 | 追憶のチルシアター |
 | <img height="30px" src="img/gift/00485-001.png"> |    485 | 月あかり |
-| <img height="30px" src="img/gift/00490-001.png"> |    490 |  |
+| <img height="30px" src="img/gift/00490-001.png"> |    490 | 金色ハーモニー |
 | <img height="30px" src="img/gift/00499-001.png"> |    499 | 花束をキミに |
 | <img height="30px" src="img/gift/00500-001.png"> |    500 | ひまわりの祝祭 |
 | <img height="30px" src="img/gift/00512-001.png"> |    512 | シンセウェーブ |
@@ -75,11 +75,11 @@
 | <img height="30px" src="img/gift/00678-001.png"> |    678 | とこなつバカンス |
 | <img height="30px" src="img/gift/00680-001.png"> |    680 | 夜霧のナイトフォール |
 | <img height="30px" src="img/gift/00777-001.png"> |    777 | ゴールデンフェザー |
-| <img height="30px" src="img/gift/00777-002.png"> |    777 |  |
-| <img height="30px" src="img/gift/00789-001.png"> |    789 |  |
+| <img height="30px" src="img/gift/00777-002.png"> |    777 | HAPPY BIRTHDAY |
+| <img height="30px" src="img/gift/00789-001.png"> |    789 | キャンドルナイト |
 | <img height="30px" src="img/gift/00861-001.png"> |    861 | ハロウィンの夜会 |
 | <img height="30px" src="img/gift/00990-001.png"> |    990 | 花火 |
-| <img height="30px" src="img/gift/01000-001.png"> |  1,000 |  |
+| <img height="30px" src="img/gift/01000-001.png"> |  1,000 | 幾千のペンライト 橙 |
 | <img height="30px" src="img/gift/01000-002.png"> |  1,000 |  |
 | <img height="30px" src="img/gift/01000-003.png"> |  1,000 |  |
 | <img height="30px" src="img/gift/01000-004.png"> |  1,000 | 幾千のペンライト 桃 |
@@ -87,12 +87,12 @@
 | <img height="30px" src="img/gift/01111-001.png"> |  1,111 | ハニーポップス |
 | <img height="30px" src="img/gift/01214-001.png"> |  1,214 | ショコラ・フォンティーヌ |
 | <img height="30px" src="img/gift/01222-001.png"> |  1,222 | エレガントフラワーシャワー |
-| <img height="30px" src="img/gift/01222-002.png"> |  1,222 |  |
+| <img height="30px" src="img/gift/01222-002.png"> |  1,222 | 煌めきバタフライ |
 | <img height="30px" src="img/gift/01222-003.png"> |  1,222 | シャイニーハートボム |
 | <img height="30px" src="img/gift/01222-004.png"> |  1,222 | ハーモニックレインボー |
 | <img height="30px" src="img/gift/01225-001.png"> |  1,225 | 宵街イルミネーション |
 | <img height="30px" src="img/gift/01234-001.png"> |  1,234 | カウントダウン花火 |
-| <img height="30px" src="img/gift/01488-001.png"> |  1,488 |  |
+| <img height="30px" src="img/gift/01488-001.png"> |  1,488 | 水流湖面 |
 | <img height="30px" src="img/gift/01555-001.png"> |  1,555 | ミラボ |
 | <img height="30px" src="img/gift/01666-001.png"> |  1,666 |  |
 | <img height="30px" src="img/gift/01888-001.png"> |  1,888 |  |
@@ -118,4 +118,4 @@
 | <img height="30px" src="img/gift/04777-001.png"> |  4,777 | オーロラステージ Colorful |
 | <img height="30px" src="img/gift/05600-001.png"> |  5,600 | 願いのミルキーウェイ |
 
-生成: 2026年 2月18日
+生成: 2026年 2月21日
