@@ -32,12 +32,15 @@
 
 (define (show-head files desc)
   (show #t
-        "## ColorSing ギフト一覧 "
-        (date-year today) "年" (padded 2 (date-month today)) "月\n"
-        desc nl (length files) "種類\n"
-        "名称未設定: " (no-name files) "件\n"
-        "| 画像 | コイン | 名称 |\n"
-        "|:----:|-------:|:-----|\n"))
+        "## ColorSing ギフト一覧 " nl nl
+        "生成: "
+        (date-year today) "年"
+        (padded 2 (date-month today)) "月"
+        (padded 2 (date-day today)) "日" nl nl
+        desc nl (length files) "種類" nl
+        "名称未設定: " (no-name files) "件" nl nl
+        "| 画像 | コイン | 名称 |" nl
+        "|:----:|-------:|:-----|" nl))
 
 (define (show-line file)
   (show #t
@@ -51,12 +54,7 @@
 
 (define (show-foot files)
   (show #t
-        ;; "\n---\n"
-        nl
-        "生成: "
-        (date-year today) "年"
-        (padded 2 (date-month today)) "月"
-        (padded 2 (date-day today)) "日\n"))
+        nl))
 
 (define (show-markdown files desc)
   (show-head files desc)
