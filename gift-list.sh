@@ -36,8 +36,8 @@ trans "70コイン以上" gift-list-effect.md \
 gosh ./gift-list 'よこたんバレンタイン2026' \
      img/gift/{00255-001,00288-001,00321-001,00399-001}.png \
      img/gift/{01111-001,01214-001,01222-003,03939-001}.png \
-    | filter > gift-list-valentine.md
+    | filter > gift-list-valentine-2026.md
 
 
-trans "よこたんバレンタイン2026" gift-list-valentine.md \
-    | filter > gift-list-valentine.html
+trans "よこたんバレンタイン2026" gift-list-valentine-2026.md \
+    | filter > gift-list-valentine-2026.html
