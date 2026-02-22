@@ -3,6 +3,7 @@
 
 ## ギフト
 
+- [コイン購入](https://web.colorsing.com/coins)
 - [全種](gift-list.md) [70コイン以上](gift-list-effect.md)
 - よこたん [バレンタイン2026](gift-list-valentine-2026.md)
 
