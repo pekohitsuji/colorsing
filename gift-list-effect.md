@@ -1,10 +1,10 @@
 ## ColorSing ギフト一覧 
 
-生成: 2026年 2月21日
+生成: 2026年 2月25日
 
 70 コイン以上
 111種類
-名称未設定: 12件
+名称未設定: 10件
 
 | 画像 | コイン | 名称 |
 |:----:|-------:|:-----|
@@ -96,8 +96,8 @@
 | <img height="30px" src="img/gift/01234-001.png"> |  1,234 | カウントダウン花火 |
 | <img height="30px" src="img/gift/01488-001.png"> |  1,488 | 水流湖面 |
 | <img height="30px" src="img/gift/01555-001.png"> |  1,555 | ミラボ |
-| <img height="30px" src="img/gift/01666-001.png"> |  1,666 |  |
-| <img height="30px" src="img/gift/01888-001.png"> |  1,888 |  |
+| <img height="30px" src="img/gift/01666-001.png"> |  1,666 | スーパーノヴァ |
+| <img height="30px" src="img/gift/01888-001.png"> |  1,888 | シューティングスター |
 | <img height="30px" src="img/gift/02000-001.png"> |  2,000 | シンフォニーオブルミナリア |
 | <img height="30px" src="img/gift/02026-001.png"> |  2,026 | 雅な宴 |
 | <img height="30px" src="img/gift/02121-001.png"> |  2,121 | 百花繚乱咲き乱れ |

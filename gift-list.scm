@@ -3,12 +3,12 @@
 (import (scheme list))            ; count
 (import (scheme write))           ; display
 (import (scheme file))            ; with-input-from-file
-(import (srfi 19))                ; current-date, date-year, date-month
 (import (scheme show))            ; show
 (import (scheme process-context)) ; command-line
+(import (srfi 19))                ; current-date, date-year, date-month
+;; (import (srfi 27))               ; rondom-integer random-real
+;; (import (srfi 28))               ; format
 (import (file util))              ; file-is-readable?
-;; (import (srfi 27))          ; rondom-integer random-real
-;; (import (srfi 28))          ; format
 ;; (import (portable x->string))          ; x->string
 ;; (import (portable mine hankaku-width)) ; hankaku-width
 ;; (import (portable mine repeat))        ; repeat
