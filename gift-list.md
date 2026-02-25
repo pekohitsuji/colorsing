@@ -4,7 +4,7 @@
 
 全種
 113種類
-名称未設定: 10件
+名称未設定: 8件
 
 | 画像 | コイン | 名称 |
 |:----:|-------:|:-----|
@@ -84,8 +84,8 @@
 | <img height="30px" src="img/gift/00861-001.png"> |    861 | ハロウィンの夜会 |
 | <img height="30px" src="img/gift/00990-001.png"> |    990 | 花火 |
 | <img height="30px" src="img/gift/01000-001.png"> |  1,000 | 幾千のペンライト 橙 |
-| <img height="30px" src="img/gift/01000-002.png"> |  1,000 |  |
-| <img height="30px" src="img/gift/01000-003.png"> |  1,000 |  |
+| <img height="30px" src="img/gift/01000-002.png"> |  1,000 | 幾千のペンライト 翠 |
+| <img height="30px" src="img/gift/01000-003.png"> |  1,000 | 幾千のペンライト 紫 |
 | <img height="30px" src="img/gift/01000-004.png"> |  1,000 | 幾千のペンライト 桃 |
 | <img height="30px" src="img/gift/01077-001.png"> |  1,077 | スターライトミラジュリア |
 | <img height="30px" src="img/gift/01111-001.png"> |  1,111 | ハニーポップス |
