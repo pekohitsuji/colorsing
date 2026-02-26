@@ -33,7 +33,8 @@ clean:
 	$(RM) index.html $(GIFT_HTML) $(GIFT_MD)
 
 index.html: README.md
-	$(TRANS) "ColorSing あれこれ" $< | $(MD2HTML) | $(FILTER) > $@
+	$(TRANS) --metadata title="ColorSing あれこれ" $< \
+	| $(MD2HTML) | $(FILTER) > $@
 
 gift-list.html: gift-list.md
 	$(TRANS) --metadata title="全種" $< > $@
