@@ -1,6 +1,7 @@
+<!-- coding: utf-8-unix; mode: markdown -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 2月25日
+生成: 2026年 2月27日
 
 よこたんバレンタイン2026
 8種類
