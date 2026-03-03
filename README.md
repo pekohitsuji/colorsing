@@ -3,14 +3,26 @@
 
 ## ギフト
 
-- [コイン購入](https://web.colorsing.com/coins)
-  [推しPt獲得表](https://faq.colorsing.com/efb4a0cd02e54c06836e5761e2f43542)
+[全種](gift-list.md) [70コイン以上](gift-list-effect.md)
+/ よこたん [バレンタイン2026](gift-list-valentine-2026.md)
 
-- [全種](gift-list.md) [70コイン以上](gift-list-effect.md)
-- よこたん [バレンタイン2026](gift-list-valentine-2026.md)
+## 課金
+
+[コイン購入](https://web.colorsing.com/coins)
+/ [メンバーシップ](https://web.colorsing.com/memberships/livers)
+
+## 公式 [FAQ](https://faq.colorsing.com/)
+
+[公開マスタ](https://faq.colorsing.com/e209037f72b04afba5d64ea1801dbde2)
+/ [ダイヤ単価](https://faq.colorsing.com/026511c6999441c3b3a55b00a9bb2565)
+/ [推しPt獲得表](https://faq.colorsing.com/efb4a0cd02e54c06836e5761e2f43542)
+/ [推しボ表](https://faq.colorsing.com/7236fd599c0d4c7e9c85128277dc2912)
+/ [モデレーター](https://faq.colorsing.com/dd4b9c9756624df9b3368415786ba7e8)
 
 ## 出席で得られるコイン数の目安
+
 スター x3.5 のとき
+
 | 枠     | コイン  | コイン(ゾーン) |
 |:-------|--------:|---------------:|
 | 初＋＋ | 90 + 45 |       45 +   4 |
@@ -18,7 +30,9 @@
 | 初なし | 40 + 20 |      0.5 + 0.5 |
 
 ## 出席で得られるコインで上げれる推しPt
+
 スター x3.5 のとき
+
 | 枠     | ゾーンではない  | ゾーン          |
 |:-------|:----------------|:----------------|
 | 初＋＋ | P2 0.1K 40c 18m | P1 0.1K 10c 45m |
@@ -48,6 +62,7 @@
   [.gitignore](.gitignore) で zzz.* を無視している。
 - pull リクエストは受けない (そもそも ないと思うが)
 - issue のフォームは今後 以下のテンプレートを用意する予定
+  (2026-02-18 済み)
 
 | テンプレート | 内容                       |
 |:-------------|:---------------------------|
