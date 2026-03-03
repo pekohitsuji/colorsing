@@ -4,6 +4,8 @@
 ## ギフト
 
 - [コイン購入](https://web.colorsing.com/coins)
+  [推しPt獲得表](https://faq.colorsing.com/efb4a0cd02e54c06836e5761e2f43542)
+
 - [全種](gift-list.md) [70コイン以上](gift-list-effect.md)
 - よこたん [バレンタイン2026](gift-list-valentine-2026.md)
 
