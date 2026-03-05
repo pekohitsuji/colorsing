@@ -1,10 +1,10 @@
 <!-- coding: utf-8-unix; mode: markdown -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 2月27日
+生成: 2026年 3月 5日
 
 全種
-113種類
+115種類
 名称未設定: 5件
 
 | 画像 | コイン | 名称 |
@@ -79,6 +79,7 @@
 | <img height="30px" src="img/gift/00600-001.png"> |    600 | スノークリスタル |
 | <img height="30px" src="img/gift/00678-001.png"> |    678 | とこなつバカンス |
 | <img height="30px" src="img/gift/00680-001.png"> |    680 | 夜霧のナイトフォール |
+| <img height="30px" src="img/gift/00700-001.png"> |    700 | 桜並木に囲われて |
 | <img height="30px" src="img/gift/00777-001.png"> |    777 | ゴールデンフェザー |
 | <img height="30px" src="img/gift/00777-002.png"> |    777 | HAPPY BIRTHDAY |
 | <img height="30px" src="img/gift/00789-001.png"> |    789 | キャンドルナイト |
@@ -90,6 +91,7 @@
 | <img height="30px" src="img/gift/01000-004.png"> |  1,000 | 幾千のペンライト 桃 |
 | <img height="30px" src="img/gift/01077-001.png"> |  1,077 | スターライトミラジュリア |
 | <img height="30px" src="img/gift/01111-001.png"> |  1,111 | ハニーポップス |
+| <img height="30px" src="img/gift/01200-001.png"> |  1,200 | しろふわバルーン |
 | <img height="30px" src="img/gift/01214-001.png"> |  1,214 | ショコラ・フォンティーヌ |
 | <img height="30px" src="img/gift/01222-001.png"> |  1,222 | エレガントフラワーシャワー |
 | <img height="30px" src="img/gift/01222-002.png"> |  1,222 | 煌めきバタフライ |
