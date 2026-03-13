@@ -1,11 +1,11 @@
 <!-- coding: utf-8-unix; mode: markdown -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 3月 5日
+生成: 2026年 3月13日
 
 全種
 115種類
-名称未設定: 5件
+名称未設定: 0件
 
 | 画像 | コイン | 名称 |
 |:----:|-------:|:-----|
@@ -112,14 +112,14 @@
 | <img height="30px" src="img/gift/02666-001.png"> |  2,666 | 黄昏の海岸線 |
 | <img height="30px" src="img/gift/02800-001.png"> |  2,800 | 花の街のハピネス |
 | <img height="30px" src="img/gift/02990-001.png"> |  2,990 | デラックス花火 |
-| <img height="30px" src="img/gift/03500-001.png"> |  3,500 |  |
-| <img height="30px" src="img/gift/03500-002.png"> |  3,500 |  |
-| <img height="30px" src="img/gift/03500-003.png"> |  3,500 |  |
+| <img height="30px" src="img/gift/03500-001.png"> |  3,500 | シャイニングステージYellow |
+| <img height="30px" src="img/gift/03500-002.png"> |  3,500 | シャイニングステージBlue |
+| <img height="30px" src="img/gift/03500-003.png"> |  3,500 | シャイニングステージRed |
 | <img height="30px" src="img/gift/03700-001.png"> |  3,700 | モノクロステージ |
 | <img height="30px" src="img/gift/03939-001.png"> |  3,939 | ハートスターマイン |
 | <img height="30px" src="img/gift/04111-001.png"> |  4,111 | 幻想のアクアリウム |
-| <img height="30px" src="img/gift/04700-001.png"> |  4,700 |  |
-| <img height="30px" src="img/gift/04700-002.png"> |  4,700 |  |
+| <img height="30px" src="img/gift/04700-001.png"> |  4,700 | オーロラステージYellow |
+| <img height="30px" src="img/gift/04700-002.png"> |  4,700 | オーロラステージPink |
 | <img height="30px" src="img/gift/04700-003.png"> |  4,700 | オーロラステージBlue |
 | <img height="30px" src="img/gift/04700-011.png"> |  4,700 | ゴージャス摩天楼 |
 | <img height="30px" src="img/gift/04777-001.png"> |  4,777 | オーロラステージ Colorful |
