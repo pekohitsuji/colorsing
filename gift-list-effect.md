@@ -55,7 +55,7 @@
 | <img height="30px" src="img/gift/00333-001.png"> |    333 | 雨上がりの光 |
 | <img height="30px" src="img/gift/00333-002.png"> |    333 | ダンスビート |
 | <img height="30px" src="img/gift/00333-003.png"> |    333 | プリズムシャボン |
-| <img height="30px" src="img/gift/00334-001.png"> |    334 | さくら |
+| <img height="30px" src="img/gift/00334-001.png"> |    334 | 桜ゆらゆら |
 | <img height="30px" src="img/gift/00345-001.png"> |    345 | ピンクダイヤモンド |
 | <img height="30px" src="img/gift/00350-001.png"> |    350 | フォーリングリーフ |
 | <img height="30px" src="img/gift/00356-001.png"> |    356 | 橙と薄紅の調和 |
