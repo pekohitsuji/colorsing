@@ -1,7 +1,7 @@
 <!-- coding: utf-8-unix; mode: markdown -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 3月13日
+生成: 2026年 3月20日
 
 70コイン以上
 113種類
@@ -64,11 +64,11 @@
 | <img height="30px" src="img/gift/00380-001.png"> |    380 | 紅の散華 |
 | <img height="30px" src="img/gift/00399-001.png"> |    399 | カワイイCUTE |
 | <img height="30px" src="img/gift/00400-001.png"> |    400 | 夕やけ茜 |
-| <img height="30px" src="img/gift/00444-001.png"> |    444 | あじさい |
+| <img height="30px" src="img/gift/00444-001.png"> |    444 | 雨に紫陽花 |
 | <img height="30px" src="img/gift/00456-001.png"> |    456 | 追憶のチルシアター |
 | <img height="30px" src="img/gift/00485-001.png"> |    485 | 月あかり |
 | <img height="30px" src="img/gift/00490-001.png"> |    490 | 金色ハーモニー |
-| <img height="30px" src="img/gift/00499-001.png"> |    499 | 花束をキミに |
+| <img height="30px" src="img/gift/00499-001.png"> |    499 | 花束を君に |
 | <img height="30px" src="img/gift/00500-001.png"> |    500 | ひまわりの祝祭 |
 | <img height="30px" src="img/gift/00512-001.png"> |    512 | シンセウェーブ |
 | <img height="30px" src="img/gift/00543-001.png"> |    543 | NEON TUBE |
