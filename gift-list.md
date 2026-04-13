@@ -1,7 +1,7 @@
 <!-- coding: utf-8-unix; mode: markdown -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 3月20日
+生成: 2026年 4月13日
 
 全種
 115種類
