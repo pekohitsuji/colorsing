@@ -1,10 +1,10 @@
 <!-- coding: utf-8-unix; mode: markdown -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 4月13日
+生成: 2026年 4月14日
 
 70コイン以上
-113種類
+115種類
 名称未設定: 0件
 
 | 画像 | コイン | 名称 |
@@ -50,6 +50,7 @@
 | <img height="30px" src="img/gift/00288-003.png"> |    288 | ブレードウィンド |
 | <img height="30px" src="img/gift/00289-001.png"> |    289 | フルーツパーティー |
 | <img height="30px" src="img/gift/00300-001.png"> |    300 | ギラギラ |
+| <img height="30px" src="img/gift/00300-002.png"> |    300 | サンダーボルト |
 | <img height="30px" src="img/gift/00321-001.png"> |    321 | ポップンスパーク |
 | <img height="30px" src="img/gift/00330-001.png"> |    330 | 夕暮れ渚の水平線 |
 | <img height="30px" src="img/gift/00333-001.png"> |    333 | 雨上がりの光 |
@@ -108,6 +109,7 @@
 | <img height="30px" src="img/gift/02222-002.png"> |  2,222 | プリズムノヴァブレイク |
 | <img height="30px" src="img/gift/02425-001.png"> |  2,425 | 聖夜のスノードリーム |
 | <img height="30px" src="img/gift/02666-001.png"> |  2,666 | 黄昏の海岸線 |
+| <img height="30px" src="img/gift/02777-001.png"> |  2,777 | 旋律の銀河鉄道 |
 | <img height="30px" src="img/gift/02800-001.png"> |  2,800 | 花の街のハピネス |
 | <img height="30px" src="img/gift/02990-001.png"> |  2,990 | デラックス花火 |
 | <img height="30px" src="img/gift/03500-001.png"> |  3,500 | シャイニングステージYellow |
