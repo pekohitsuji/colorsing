@@ -24,7 +24,7 @@
 / [推しPt獲得表](https://faq.colorsing.com/efb4a0cd02e54c06836e5761e2f43542)
 / [推しボ表](https://faq.colorsing.com/7236fd599c0d4c7e9c85128277dc2912)
 / [モデレーター](https://faq.colorsing.com/dd4b9c9756624df9b3368415786ba7e8)
-/ [X](https://x.com/colorsing_info)
+/ [X ColorSing Info](https://x.com/colorsing_info)
 
 ## 出席で得られるコイン数の目安
 
