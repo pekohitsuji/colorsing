@@ -19,14 +19,14 @@
 / [メンバーシップ](https://web.colorsing.com/memberships/livers)
 / [加入中のメンバーシップ](https://web.colorsing.com/memberships)
 
-## 公式 [FAQ](https://faq.colorsing.com/)
+## 公式 [X ColorSing Info](https://x.com/colorsing_info) / [FAQ](https://faq.colorsing.com/)
 
 [公開マスタ](https://faq.colorsing.com/e209037f72b04afba5d64ea1801dbde2)
 / [ダイヤ単価](https://faq.colorsing.com/026511c6999441c3b3a55b00a9bb2565)
 / [推しPt獲得表](https://faq.colorsing.com/efb4a0cd02e54c06836e5761e2f43542)
 / [推しボ表](https://faq.colorsing.com/7236fd599c0d4c7e9c85128277dc2912)
 / [モデレーター](https://faq.colorsing.com/dd4b9c9756624df9b3368415786ba7e8)
-/ [X ColorSing Info](https://x.com/colorsing_info)
+/ [おやすみ旬](https://faq.colorsing.com/1b5c1bbbc6748079883fe2f698cba6c0)
 
 ## 出席で得られるコイン数の目安
 
