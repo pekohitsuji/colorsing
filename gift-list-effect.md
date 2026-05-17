@@ -1,10 +1,10 @@
 <!-- coding: utf-8-unix; mode: markdown -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 4月14日
+生成: 2026年 5月17日
 
 70コイン以上
-115種類
+117種類
 名称未設定: 0件
 
 | 画像 | コイン | 名称 |
@@ -34,6 +34,7 @@
 | <img height="30px" src="img/gift/00200-001.png"> |    200 | バーン |
 | <img height="30px" src="img/gift/00202-001.png"> |    202 | サイバーエクリプス |
 | <img height="30px" src="img/gift/00210-001.png"> |    210 | 粉雪 |
+| <img height="30px" src="img/gift/00210-002.png"> |    210 | 蒼花ふわり |
 | <img height="30px" src="img/gift/00222-001.png"> |    222 | おだやかハナミズキ |
 | <img height="30px" src="img/gift/00222-002.png"> |    222 | キンキラ紙吹雪 |
 | <img height="30px" src="img/gift/00222-003.png"> |    222 | 閃光 |
@@ -112,6 +113,7 @@
 | <img height="30px" src="img/gift/02777-001.png"> |  2,777 | 旋律の銀河鉄道 |
 | <img height="30px" src="img/gift/02800-001.png"> |  2,800 | 花の街のハピネス |
 | <img height="30px" src="img/gift/02990-001.png"> |  2,990 | デラックス花火 |
+| <img height="30px" src="img/gift/03210-001.png"> |  3,210 | バーニングフェニックス |
 | <img height="30px" src="img/gift/03500-001.png"> |  3,500 | シャイニングステージYellow |
 | <img height="30px" src="img/gift/03500-002.png"> |  3,500 | シャイニングステージBlue |
 | <img height="30px" src="img/gift/03500-003.png"> |  3,500 | シャイニングステージRed |
