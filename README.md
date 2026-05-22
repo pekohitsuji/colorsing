@@ -6,6 +6,7 @@
 - [チャームポイントは泣きボクロ](#チャームポイントは泣きボクロ)
 - [ジャイアン サーキュレーション](#ジャイアン-サーキュレーション)
   [動画](https://www.youtube.com/watch?v=sFQIqyyFlVc)
+- [ファッション用語](../style/) [README.md](../style/README.md)
 
 ## ギフト
 
