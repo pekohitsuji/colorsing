@@ -7,7 +7,7 @@
 - [ジャイアン サーキュレーション](#ジャイアン-サーキュレーション)
   [動画](https://www.youtube.com/watch?v=sFQIqyyFlVc)
 - [曲の調査と報告](../song/)
-- [ファッション用語](../style/) [README.md](../style/README.md)
+- [画像生成AIで使えるファッション用語](../style/)
 
 ## ギフト
 
