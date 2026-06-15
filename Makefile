@@ -8,7 +8,7 @@ GIT_ADD = git remote add origin $(GIT_URL)
 ### $(GIFT) 'タイトル' [画像ファイル ...]
 GIFT    := gosh ./gift-list
 ### $(TRANS) 'タイトル' --meta title="タイトル" markdown-file
-TRANS   := pandoc -f gfm -t html -s --css css/base.css
+TRANS   := pandoc -f gfm -t html -s --css ../css/base/colorsing.css
 ### MARKDOWN | $(FILTER) > HTMLファイル
 FILTER  := sed '/<header /,/<\/header>/d'
 ###
