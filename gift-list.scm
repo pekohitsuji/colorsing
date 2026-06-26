@@ -32,7 +32,7 @@
 
 (define (show-head files desc)
   (show #t
-        "<!-- coding: utf-8-unix; mode: markdown -->" nl
+        "<!-- -*- coding: utf-8-unix; mode: markdown; -*- -->" nl
         "## ColorSing ギフト一覧 " nl nl
         "生成: "
         (date-year today) "年"
@@ -55,7 +55,9 @@
 
 (define (show-foot files)
   (show #t
-        nl))
+        "<!-- Local Variables: -->" nl
+        "<!-- indent-tabs-mode: nil -->" nl
+        "<!-- End: -->" nl))
 
 (define (show-markdown files desc)
   (show-head files desc)
