@@ -1,7 +1,7 @@
-<!-- coding: utf-8-unix; mode: markdown -->
+<!-- -*- coding: utf-8-unix; mode: markdown; -*- -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 6月15日
+生成: 2026年 6月30日
 
 よこたんバレンタイン2026
 8種類
@@ -17,4 +17,6 @@
 | <img height="30px" src="img/gift/01214-001.png"> |  1,214 | ショコラ・フォンティーヌ |
 | <img height="30px" src="img/gift/01222-003.png"> |  1,222 | シャイニーハートボム |
 | <img height="30px" src="img/gift/03939-001.png"> |  3,939 | ハートスターマイン |
-
+<!-- Local Variables: -->
+<!-- indent-tabs-mode: nil -->
+<!-- End: -->

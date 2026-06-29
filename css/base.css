@@ -1,7 +1,30 @@
-td, th {
-    border-style: solid;
-    border-top-width:    1px;
-    border-bottom-width: 1px;
-    border-left-width:   1px;
-    border-right-width:  1px;
+/* -*- coding: utf-8-unix; mode: css-ts; -*- */
+
+:root { color-scheme: light dark; }
+body {
+  margin: 0;
+  padding: 4rem;
+  min-height: 90vh;
+  color:            light-dark(#000000, #ffffff);
+  background-color: light-dark(#dfdfdf, #000018);
 }
+
+td, th {
+  border-bottom-color: light-dark(#000000, #ffffff);
+  border-left-color:   light-dark(#000000, #ffffff);
+  border-right-color:  light-dark(#000000, #ffffff);
+  border-top-color:    light-dark(#000000, #ffffff);
+  border-bottom-style: solid;
+  border-left-style:   solid;
+  border-right-style:  solid;
+  border-top-style:    solid;
+  border-bottom-width: 1px;
+  border-left-width:   1px;
+  border-right-width:  1px;
+  border-top-width:    1px;
+}
+
+/* Local Variables: */
+/* indent-tabs-mode: nil */
+/* css-indent-offset: 2 */
+/* End: */

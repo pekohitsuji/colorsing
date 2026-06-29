@@ -32,6 +32,10 @@ GIFT_LIST_VALENTINE_2026 := \
                img/gift/{01111-001,01214-001,01222-003,03939-001}.png)
 
 all: index.html $(GIFT_HTML)
+	make -C 2026-06-27-ko
+
+tags: TAGS
+	ctags -R -e
 
 clean:
 	find -name "*~" -delete
@@ -47,9 +51,6 @@ git:
 	@echo "    git commit -m \"first commit\""
 	@echo "    git branch -M main"
 	@echo "    git push -u origin main"
-
-tags: TAGS
-	ctags -R -e
 
 index.html: README.md
 	$(TRANS) --metadata title="ColorSing あれこれ" $< \

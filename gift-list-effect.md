@@ -1,7 +1,7 @@
-<!-- coding: utf-8-unix; mode: markdown -->
+<!-- -*- coding: utf-8-unix; mode: markdown; -*- -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 6月15日
+生成: 2026年 6月30日
 
 70コイン以上
 117種類
@@ -126,4 +126,6 @@
 | <img height="30px" src="img/gift/04700-011.png"> |  4,700 | ゴージャス摩天楼 |
 | <img height="30px" src="img/gift/04777-001.png"> |  4,777 | オーロラステージ Colorful |
 | <img height="30px" src="img/gift/05600-001.png"> |  5,600 | 願いのミルキーウェイ |
-
+<!-- Local Variables: -->
+<!-- indent-tabs-mode: nil -->
+<!-- End: -->
