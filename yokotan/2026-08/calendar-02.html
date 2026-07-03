@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026年8月 カレンダー</title>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html {
+    height: 100%;
+    overflow-y: auto;
+    background-color: #333;
+  }
+
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+    width: 852px;
+    height: 1847px;
+    margin: 0 auto;
+    transform: translate(0, 0);
+  }
+
+  .bg {
+    position: fixed;
+    inset: 0;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+
+  /* 縦3分割の目印用コンテナ（中段にカレンダーを配置） */
+  .split {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+  }
+  .split .zone {
+    flex: 1 1 33.333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cal-wrap {
+    width: min(94vw, 900px);
+    padding: 18px 20px 22px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.86);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 12px 34px rgba(0, 40, 20, 0.28);
+    border: 3px solid rgba(255, 255, 255, 0.9);
+  }
+
+  .cal-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .cal-header .ym-tag {
+    position: absolute;
+    top: -1rem;
+    right: 2px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(60, 90, 60, 0.55);
+    letter-spacing: 0.03em;
+  }
+  .cal-header .year {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #2f7a3f;
+    letter-spacing: 0.1em;
+  }
+  .cal-header .month {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: #1f5c2a;
+    letter-spacing: 0.04em;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.6);
+  }
+
+  table.calendar {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  table.calendar th {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 6px 0;
+    color: #445;
+    background: rgba(255, 221, 89, 0.35);
+    border: 1px solid rgba(120, 120, 90, 0.25);
+  }
+  table.calendar th.sun { color: #d9455f; }
+  table.calendar th.sat { color: #2b6fd1; }
+
+  table.calendar td {
+    border: 1px solid rgba(120, 120, 90, 0.25);
+    vertical-align: top;
+    height: 78px;
+    background: rgba(255, 255, 255, 0.55);
+    padding: 4px 4px 6px;
+  }
+  table.calendar td.blank {
+    background: rgba(255, 255, 255, 0.18);
+  }
+
+  .day-num {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  td.sun .day-num { color: #d9455f; }
+  td.sat .day-num { color: #2b6fd1; }
+
+  .day-input {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0.78rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    border: 1px solid rgba(150, 150, 120, 0.35);
+    border-radius: 6px;
+    padding: 4px 2px;
+    background: rgba(255, 255, 255, 0.85);
+    outline: none;
+  }
+  .day-input:focus {
+    border-color: #6ab04c;
+    box-shadow: 0 0 0 2px rgba(106, 176, 76, 0.25);
+  }
+
+  @media (max-width: 560px) {
+    table.calendar td { height: 62px; }
+    .day-num { font-size: 0.72rem; }
+    .day-input { font-size: 0.68rem; padding: 3px 1px; }
+    .cal-header .month { font-size: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="split">
+  <div class="zone"></div>
+  <div class="zone">
+    <div class="cal-wrap">
+      <div class="cal-header">
+        <div class="ym-tag">2026-08</div>
+      </div>
+      <table class="calendar">
+        <thead>
+          <tr>
+            <th class="sun">日</th>
+            <th>月</th>
+            <th>火</th>
+            <th>水</th>
+            <th>木</th>
+            <th>金</th>
+            <th class="sat">土</th>
+          </tr>
+        </thead>
+        <tbody id="cal-body"></tbody>
+      </table>
+    </div>
+  </div>
+  <div class="zone"></div>
+</div>
+
+<script>
+  // 2026年8月: 1日は土曜日, 31日まで
+  const year = 2026, month = 8, daysInMonth = 31, firstWeekday = 6; // 0=日...6=土
+  const tbody = document.getElementById('cal-body');
+  let day = 1;
+  let cellCount = 0;
+  const totalCells = Math.ceil((firstWeekday + daysInMonth) / 7) * 7;
+
+  for (let w = 0; w < totalCells / 7; w++) {
+    const tr = document.createElement('tr');
+    for (let d = 0; d < 7; d++) {
+      const td = document.createElement('td');
+      if (cellCount < firstWeekday || day > daysInMonth) {
+        td.className = 'blank';
+      } else {
+        if (d === 0) td.classList.add('sun');
+        if (d === 6) td.classList.add('sat');
+        const num = document.createElement('div');
+        num.className = 'day-num';
+        num.textContent = day;
+        td.appendChild(num);
+
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.className = 'day-input';
+        input.maxLength = 8;
+        input.placeholder = '';
+        td.appendChild(input);
+
+        day++;
+      }
+      tr.appendChild(td);
+      cellCount++;
+    }
+    tbody.appendChild(tr);
+  }
+</script>
+</body>
+</html>

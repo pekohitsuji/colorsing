@@ -32,8 +32,8 @@ GIFT_LIST_VALENTINE_2026 := \
                img/gift/{01111-001,01214-001,01222-003,03939-001}.png)
 
 all: index.html $(GIFT_HTML)
-	make -C yokotan-stamp
-	make -C 2026-06-27-ko
+	make -C yokotan/stamp
+	make -C listener/ko/2026-06-27-ko
 
 tags: TAGS
 	ctags -R -e
