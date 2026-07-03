@@ -10,7 +10,7 @@ HARVEST := index.html
 
 APP_IMG  := gosh app/img -c -l -m
 APP_HTML := gosh app/html  -t "よこたんスタンプ 314x314 背景透過PNG" \
-                           -c ../css/base.css
+                           -c ../../css/base.css
 
 all : $(HARVEST)
 

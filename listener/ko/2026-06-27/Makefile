@@ -15,7 +15,7 @@ HARVEST := index.html
 
 APP_IMG  := gosh app/img -c -l -m
 APP_HTML := gosh app/html  -t "2026 誕生会 こ〜さん" \
-                            -c ../css/base.css
+                            -c ../../../css/base.css
 
 all : $(HARVEST)
 
