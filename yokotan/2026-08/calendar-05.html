@@ -88,32 +88,6 @@
     text-shadow: 1px 1px 0 rgba(255,255,255,0.6);
   }
 
-  /* ---- タイトル用 INPUT ---- */
-  .title-input {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 8px;
-    text-align: center;
-    font-size: 0.9rem;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 500;
-    color: #2a4a2a;
-    border: none;
-    border-bottom: 2px solid rgba(60, 120, 60, 0.3);
-    border-radius: 0;
-    padding: 4px 6px;
-    background: transparent;
-    outline: none;
-    transition: border-color 0.2s;
-  }
-  .title-input::placeholder {
-    color: rgba(60, 100, 60, 0.35);
-  }
-  .title-input:focus {
-    border-bottom-color: #6ab04c;
-  }
-
   table.calendar {
     width: 100%;
     border-collapse: collapse;
@@ -182,8 +156,6 @@
     <div class="cal-wrap">
       <div class="cal-header">
         <div class="ym-tag">2026-08</div>
-        <!-- タイトル用 INPUT: ローカルストレージで保存・復元 -->
-        <input type="text" class="title-input" id="cal-title" maxlength="30" placeholder="タイトルを入力">
       </div>
       <table class="calendar">
         <thead>
@@ -205,14 +177,6 @@
 </div>
 
 <script>
-  // ---- タイトル用 INPUT: 保存・復元 ----
-  const titleInput = document.getElementById('cal-title');
-  const TITLE_KEY = 'cal-2026-08-title';
-  titleInput.value = localStorage.getItem(TITLE_KEY) || '';
-  titleInput.addEventListener('input', () => {
-    localStorage.setItem(TITLE_KEY, titleInput.value);
-  });
-
   // 2026年8月: 1日は土曜日, 31日まで
   const year = 2026, month = 8, daysInMonth = 31, firstWeekday = 6; // 0=日...6=土
   const tbody = document.getElementById('cal-body');
