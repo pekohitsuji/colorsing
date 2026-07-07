@@ -1,7 +1,7 @@
 <!-- -*- coding: utf-8-unix; mode: markdown; -*- -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 6月30日
+生成: 2026年 7月 8日
 
 70コイン以上
 117種類

@@ -35,13 +35,17 @@ all: index.html $(GIFT_HTML)
 	make -C yokotan/announce
 	make -C yokotan/calendar
 	make -C yokotan/stamp
-	make -C listener/ko/2026-06-27-ko
+	make -C listener/ko/2026-06-27
 
 tags: TAGS
 	ctags -R -e
 
 clean:
 	find -name "*~" -delete
+	make -C yokotan/announce          clean
+	make -C yokotan/calendar          clean
+	make -C yokotan/stamp             clean
+	make -C listener/ko/2026-06-27 clean
 	$(RM) index.html $(GIFT_HTML) $(GIFT_MD)
 
 git:
