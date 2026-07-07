@@ -24,19 +24,35 @@
     margin: 0;
     padding: 0;
     background: #000;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    height: 100dvh; /* モバイルのアドレスバー分の誤差を吸収 */
   }
 
   .frame {
     position: relative;
-    width: 100%;
     max-width: 869px;
+    max-height: 100vh;
+    max-height: 100dvh;
+    width: auto;
+    height: auto;
     margin: 0 auto;
     line-height: 0; /* 画像下の余白防止 */
   }
 
   .frame img.bg {
     display: block;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+    max-height: 100dvh;
+    width: auto;
     height: auto;
   }
 
