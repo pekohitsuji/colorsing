@@ -68,22 +68,20 @@
   }
 
   .title {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    margin: 0 0 1cqw 0;
+  }
+
+  .title text {
     font-family: "じゆうちょう", sans-serif;
-    color: #ffe000;
-    font-size: 5vw;
-    font-size: 5cqw;
-    line-height: 1.15;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-text-stroke: 0.06em #c00000;
-    text-stroke: 0.06em #c00000;
+    fill: #ffe000;
+    stroke: #c00000;
+    stroke-width: 1.8;
+    stroke-linejoin: round;
     paint-order: stroke fill;
-    text-shadow:
-      -1px -1px 0 #c00000,
-       1px -1px 0 #c00000,
-      -1px  1px 0 #c00000,
-       1px  1px 0 #c00000;
-    margin: 0 0 3.6cqw 0;
   }
 
   table.schedule {
@@ -96,9 +94,6 @@
   table.schedule td {
     vertical-align: top;
     border: none;
-    border-bottom-style: solid;
-    border-bottom-color: transparent;
-    border-bottom-width: 0.5em; /* 文字の高さ(1em)の半分の隙間を確保（見た目には出ない） */
     padding: 0.4cqw 0.5cqw;
     font-family: "Corporate Logo Rounded ver3", sans-serif;
     color: #ff4d6d;
@@ -135,7 +130,12 @@
   <img class="bg" src="2026-06-11.png" alt="background">
 
   <div class="overlay">
-    <div class="title">🌞中旬の予定🌞</div>
+    <svg class="title" viewBox="0 0 320 55" preserveAspectRatio="xMidYMid meet">
+      <path id="titleArc" d="M 10 48 Q 160 8 310 48" fill="none"/>
+      <text font-size="34" text-anchor="middle">
+        <textPath href="#titleArc" xlink:href="#titleArc" startOffset="50%">🌞中旬の予定🌞</textPath>
+      </text>
+    </svg>
 
     <table class="schedule">
       <tr>
