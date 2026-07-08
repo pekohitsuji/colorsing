@@ -54,12 +54,12 @@
     object-fit: contain;
   }
 
-  /* 画像左上(3%,5%)〜(50%,50%)の領域 */
+  /* 画像左上(1%,5%)〜(55%,50%)の領域 */
   .overlay {
     position: absolute;
-    left: 3%;
+    left: 1%;
     top: 5%;
-    width: 47%;   /* 50% - 3% */
+    width: 54%;   /* 55% - 1% */
     height: 45%;  /* 50% - 5% */
     display: flex;
     flex-direction: column;
@@ -106,9 +106,10 @@
 
   table.schedule td span.pill {
     display: inline-block;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 0.6em;
     padding: 0.1em 0.5em;
+    line-height: 1.3; /* セルの行間(2.8)とは独立して背景の高さを維持 */
   }
 
   table.schedule td.day {
