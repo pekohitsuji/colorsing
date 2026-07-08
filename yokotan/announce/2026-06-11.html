@@ -94,6 +94,9 @@
   table.schedule td {
     vertical-align: top;
     border: none;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    border-bottom-width: 0.5em; /* 文字の高さ(1em)の半分の隙間を確保（見た目には出ない） */
     padding: 0.4cqw 0.5cqw;
     font-family: "Corporate Logo Rounded ver3", sans-serif;
     color: #ff4d6d;
@@ -131,7 +134,7 @@
 
   <div class="overlay">
     <svg class="title" viewBox="0 0 320 55" preserveAspectRatio="xMidYMid meet">
-      <path id="titleArc" d="M 10 48 Q 160 8 310 48" fill="none"/>
+      <path id="titleArc" d="M 10 48 Q 160 -15 310 48" fill="none"/>
       <text font-size="34" text-anchor="middle">
         <textPath href="#titleArc" xlink:href="#titleArc" startOffset="50%">🌞中旬の予定🌞</textPath>
       </text>
