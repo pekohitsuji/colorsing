@@ -21,7 +21,12 @@
   (string->number (substring file 9 14)))
 
 (define (png->txt file)
-  (string-append (substring file 0 19) "txt"))
+  (string-append (substring file 0 19) "txt")
+  )
+
+(define (txt->png file)
+  (string-append (substring file 0 19) "png")
+  )
 
 (define (name? file)
   (and (file-is-readable? file)
@@ -46,11 +51,11 @@
 (define (show-line file)
   (show #t
         "| <img height=\"30px\" src=\""
-        file
+        (txt->png file)
         "\"> | "
         (padded 6 (numeric/comma (png->num file)))
         " | "
-        (or (name? (png->txt file)) "")
+        (or (name? file) "")
         " |\n"))
 
 (define (show-foot files)

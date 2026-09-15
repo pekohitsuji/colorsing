@@ -1,10 +1,10 @@
 <!-- -*- coding: utf-8-unix; mode: markdown; -*- -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 7月 8日
+生成: 2026年 9月16日
 
 70コイン以上
-117種類
+124種類
 名称未設定: 0件
 
 | 画像 | コイン | 名称 |
@@ -27,14 +27,15 @@
 | <img height="30px" src="img/gift/00144-001.png"> |    144 | ブラックウイング |
 | <img height="30px" src="img/gift/00150-001.png"> |    150 | ほしきらきら |
 | <img height="30px" src="img/gift/00150-002.png"> |    150 | 炎 |
+| <img height="30px" src="img/gift/00160-001.png"> |    160 | 木の葉の涙 |
 | <img height="30px" src="img/gift/00166-001.png"> |    166 | 羽根 |
 | <img height="30px" src="img/gift/00177-001.png"> |    177 | 蒼のスポットライト |
 | <img height="30px" src="img/gift/00180-001.png"> |    180 | シュガーエナジー |
 | <img height="30px" src="img/gift/00188-001.png"> |    188 | 秋色もみじ |
 | <img height="30px" src="img/gift/00200-001.png"> |    200 | バーン |
 | <img height="30px" src="img/gift/00202-001.png"> |    202 | サイバーエクリプス |
-| <img height="30px" src="img/gift/00210-001.png"> |    210 | 粉雪 |
-| <img height="30px" src="img/gift/00210-002.png"> |    210 | 蒼花ふわり |
+| <img height="30px" src="img/gift/00210-001.png"> |    210 | 蒼花ふわり |
+| <img height="30px" src="img/gift/00210-002.png"> |    210 | 粉雪 |
 | <img height="30px" src="img/gift/00222-001.png"> |    222 | おだやかハナミズキ |
 | <img height="30px" src="img/gift/00222-002.png"> |    222 | キンキラ紙吹雪 |
 | <img height="30px" src="img/gift/00222-003.png"> |    222 | 閃光 |
@@ -46,9 +47,10 @@
 | <img height="30px" src="img/gift/00260-001.png"> |    260 | 360°ペンライト ホワイト |
 | <img height="30px" src="img/gift/00270-001.png"> |    270 | ゴールデンバルーン |
 | <img height="30px" src="img/gift/00280-001.png"> |    280 | 空に快晴 |
-| <img height="30px" src="img/gift/00288-001.png"> |    288 | ハートひらひら |
-| <img height="30px" src="img/gift/00288-002.png"> |    288 | ヒカリの雨 |
-| <img height="30px" src="img/gift/00288-003.png"> |    288 | ブレードウィンド |
+| <img height="30px" src="img/gift/00288-001.png"> |    288 | パステルクルーズ |
+| <img height="30px" src="img/gift/00288-002.png"> |    288 | ハートひらひら |
+| <img height="30px" src="img/gift/00288-003.png"> |    288 | ヒカリの雨 |
+| <img height="30px" src="img/gift/00288-004.png"> |    288 | ブレードウィンド |
 | <img height="30px" src="img/gift/00289-001.png"> |    289 | フルーツパーティー |
 | <img height="30px" src="img/gift/00300-001.png"> |    300 | ギラギラ |
 | <img height="30px" src="img/gift/00300-002.png"> |    300 | サンダーボルト |
@@ -73,8 +75,10 @@
 | <img height="30px" src="img/gift/00499-001.png"> |    499 | 花束を君に |
 | <img height="30px" src="img/gift/00500-001.png"> |    500 | ひまわりの祝祭 |
 | <img height="30px" src="img/gift/00512-001.png"> |    512 | シンセウェーブ |
+| <img height="30px" src="img/gift/00530-001.png"> |    530 | 三日月と星 |
 | <img height="30px" src="img/gift/00543-001.png"> |    543 | NEON TUBE |
-| <img height="30px" src="img/gift/00550-001.png"> |    550 | ライトアップランタン |
+| <img height="30px" src="img/gift/00550-001.png"> |    550 | 光のピアノロール |
+| <img height="30px" src="img/gift/00550-002.png"> |    550 | ライトアップランタン |
 | <img height="30px" src="img/gift/00555-001.png"> |    555 | ルミナススピンブレイク |
 | <img height="30px" src="img/gift/00600-001.png"> |    600 | スノークリスタル |
 | <img height="30px" src="img/gift/00678-001.png"> |    678 | とこなつバカンス |
@@ -89,6 +93,7 @@
 | <img height="30px" src="img/gift/01000-002.png"> |  1,000 | 幾千のペンライト 翠 |
 | <img height="30px" src="img/gift/01000-003.png"> |  1,000 | 幾千のペンライト 紫 |
 | <img height="30px" src="img/gift/01000-004.png"> |  1,000 | 幾千のペンライト 桃 |
+| <img height="30px" src="img/gift/01024-001.png"> |  1,024 | 輝石スパークル |
 | <img height="30px" src="img/gift/01077-001.png"> |  1,077 | スターライトミラジュリア |
 | <img height="30px" src="img/gift/01111-001.png"> |  1,111 | ハニーポップス |
 | <img height="30px" src="img/gift/01200-001.png"> |  1,200 | しろふわバルーン |
@@ -99,6 +104,7 @@
 | <img height="30px" src="img/gift/01222-004.png"> |  1,222 | ハーモニックレインボー |
 | <img height="30px" src="img/gift/01225-001.png"> |  1,225 | 宵街イルミネーション |
 | <img height="30px" src="img/gift/01234-001.png"> |  1,234 | カウントダウン花火 |
+| <img height="30px" src="img/gift/01234-002.png"> |  1,234 | 水鏡に蛍 |
 | <img height="30px" src="img/gift/01488-001.png"> |  1,488 | 水流湖面 |
 | <img height="30px" src="img/gift/01555-001.png"> |  1,555 | ミラボ |
 | <img height="30px" src="img/gift/01666-001.png"> |  1,666 | スーパーノヴァ |
@@ -124,7 +130,8 @@
 | <img height="30px" src="img/gift/04700-002.png"> |  4,700 | オーロラステージPink |
 | <img height="30px" src="img/gift/04700-003.png"> |  4,700 | オーロラステージBlue |
 | <img height="30px" src="img/gift/04700-011.png"> |  4,700 | ゴージャス摩天楼 |
-| <img height="30px" src="img/gift/04777-001.png"> |  4,777 | オーロラステージ Colorful |
+| <img height="30px" src="img/gift/04777-001.png"> |  4,777 | 黄金のシンフォニー |
+| <img height="30px" src="img/gift/04777-002.png"> |  4,777 | オーロラステージ Colorful |
 | <img height="30px" src="img/gift/05600-001.png"> |  5,600 | 願いのミルキーウェイ |
 <!-- Local Variables: -->
 <!-- indent-tabs-mode: nil -->

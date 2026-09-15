@@ -20,16 +20,16 @@ GIFT_HTML := gift-list.html \
 
 GIFT_MD := $(patsubst %.html, %.md, $(GIFT_HTML))
 
-GIFT_LIST := $(wildcard img/gift/?????-???.png)
+GIFT_LIST := $(wildcard img/gift/?????-???.txt)
 
 GIFT_LIST_EFFECT := \
-    $(wildcard img/gift/000[7-9][0-9]-???.png \
-               img/gift/00[1-9][0-9][0-9]-???.png \
-               img/gift/0[1-9][0-9][0-9][0-9]-???.png)
+    $(wildcard img/gift/000[7-9][0-9]-???.txt \
+               img/gift/00[1-9][0-9][0-9]-???.txt \
+               img/gift/0[1-9][0-9][0-9][0-9]-???.txt)
 
 GIFT_LIST_VALENTINE_2026 := \
-    $(shell echo img/gift/{00255-001,00288-001,00321-001,00399-001}.png \
-               img/gift/{01111-001,01214-001,01222-003,03939-001}.png)
+    $(shell echo img/gift/{00255-001,00288-001,00321-001,00399-001}.txt \
+               img/gift/{01111-001,01214-001,01222-003,03939-001}.txt)
 
 all: index.html $(GIFT_HTML)
 	make -C yokotan/announce
@@ -45,7 +45,7 @@ clean:
 	make -C yokotan/announce          clean
 	make -C yokotan/calendar          clean
 	make -C yokotan/stamp             clean
-	make -C listener/ko/2026-06-27 clean
+	make -C listener/ko/2026-06-27    clean
 	$(RM) index.html $(GIFT_HTML) $(GIFT_MD)
 
 git:
