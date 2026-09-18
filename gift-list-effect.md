@@ -1,10 +1,10 @@
 <!-- -*- coding: utf-8-unix; mode: markdown; -*- -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 9月16日
+生成: 2026年 9月19日
 
 70コイン以上
-124種類
+125種類
 名称未設定: 0件
 
 | 画像 | コイン | 名称 |
@@ -93,6 +93,7 @@
 | <img height="30px" src="img/gift/01000-002.png"> |  1,000 | 幾千のペンライト 翠 |
 | <img height="30px" src="img/gift/01000-003.png"> |  1,000 | 幾千のペンライト 紫 |
 | <img height="30px" src="img/gift/01000-004.png"> |  1,000 | 幾千のペンライト 桃 |
+| <img height="30px" src="img/gift/01001-001.png"> |  1,001 | 純白の羽ばたき |
 | <img height="30px" src="img/gift/01024-001.png"> |  1,024 | 輝石スパークル |
 | <img height="30px" src="img/gift/01077-001.png"> |  1,077 | スターライトミラジュリア |
 | <img height="30px" src="img/gift/01111-001.png"> |  1,111 | ハニーポップス |
