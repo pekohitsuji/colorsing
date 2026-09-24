@@ -1,7 +1,7 @@
 <!-- -*- coding: utf-8-unix; mode: markdown; -*- -->
 ## ColorSing ギフト一覧 
 
-生成: 2026年 9月19日
+生成: 2026年 9月24日
 
 全種
 127種類
@@ -109,7 +109,7 @@
 | <img height="30px" src="img/gift/01234-001.png"> |  1,234 | カウントダウン花火 |
 | <img height="30px" src="img/gift/01234-002.png"> |  1,234 | 水鏡に蛍 |
 | <img height="30px" src="img/gift/01488-001.png"> |  1,488 | 水流湖面 |
-| <img height="30px" src="img/gift/01555-001.png"> |  1,555 | ミラボ |
+| <img height="30px" src="img/gift/01555-001.png"> |  1,555 | ミラボ★ナイトフィーバー |
 | <img height="30px" src="img/gift/01666-001.png"> |  1,666 | スーパーノヴァ |
 | <img height="30px" src="img/gift/01888-001.png"> |  1,888 | シューティングスター |
 | <img height="30px" src="img/gift/02000-001.png"> |  2,000 | シンフォニーオブルミナリア |
