@@ -11,7 +11,7 @@
 (import (only (gauche base) slices))
 (import (file util))              ; file-is-readable?
 ;; (import (portable x->string))          ; x->string
-;; (import (portable mine hankaku-width)) ; hankaku-width
+(import (portable mine hankaku-width)) ; hankaku-width
 ;; (import (portable mine repeat))        ; repeat
 ;; (import (portable mine repeats))       ; repeats
 ;; (import (portable mine random-string)) ; random-string
@@ -69,7 +69,7 @@
    (padded 2 (date-month today)) "月"
    (padded 2 (date-day today)) "日 生成<br/>" nl
    desc " " (length files) "種類 "
-   "名称未設定: " (no-name files) "件<br/>" nl nl
+   "名称未設定: " (no-name files) "件<br/><br/>" nl nl
    "    <table>" nl
    "      <tbody>" nl)
   (values))
@@ -78,14 +78,20 @@
   (SHOW "<tr>" nl)
   (for-each
    (lambda (file)
-     (SHOW "<td style=\"padding: 10px; text-align: center;\">" nl)
-     (when file
-       (SHOW
-        "  <img width=\"180px\" src=\"" (txt->png file) "\"><br/>" nl
-        "  <span style=\"font-size: small;\">"
-        "  " (or (name? file) "") "<br/>" (numeric/comma (png->num file))
-        "</span>" nl))
-     (SHOW "</td>" nl))
+     (if file
+         (let ((name (or (name? file) "")))
+           (SHOW "<td class=\"TC\">" nl)
+           (when file
+             (SHOW
+              "  <img width=\"180px\" src=\"" (txt->png file) "\"><br/>" nl
+              (if (< 20 (hankaku-width name))
+                  "  <span style=\"font-size: small;\">"
+                  "  <span>")
+              name
+              "</span><br/>" nl
+              "  " (numeric/comma (png->num file)) nl))
+           (SHOW "</td>" nl))
+         (SHOW "<td></td>" nl)))
    files)
   (SHOW "</tr>" nl)
   (values))
