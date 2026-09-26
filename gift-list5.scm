@@ -59,6 +59,7 @@
    "<html lang=\"ja\">" nl
    "  <head>" nl
    "    <meta charset=\"UTF-8\">" nl
+   "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\" />"
    "    <title>" desc "（段組）</title>" nl
    "    <base target=\"_blank\">" nl
    "    <link rel=\"stylesheet\" href=\"../css/base.css\" />" nl
