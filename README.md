@@ -16,6 +16,10 @@
 / [70〜999コインのギフト分類](gift-list-kind.html)
 / よこたん [バレンタイン2026](gift-list-valentine-2026.md)
 
+## ギフト（段組）
+[全種](gift-list5.html)
+/ [70コイン以上](gift-list5-effect.md)
+
 ## 課金
 [ColorSing](https://web.colorsing.com/)
 / [コイン購入](https://web.colorsing.com/coins)
