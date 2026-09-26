@@ -78,12 +78,12 @@
   (SHOW "<tr>" nl)
   (for-each
    (lambda (file)
-     (SHOW "<td style=\"padding: 10px;\">" nl)
+     (SHOW "<td style=\"padding: 10px; text-align: center;\">" nl)
      (when file
        (SHOW
         "  <img width=\"180px\" src=\"" (txt->png file) "\"><br/>" nl
         "  <span style=\"font-size: small;\">"
-        "  " (numeric/comma (png->num file)) " " (or (name? file) "")
+        "  " (or (name? file) "") "<br/>" (numeric/comma (png->num file))
         "</span>" nl))
      (SHOW "</td>" nl))
    files)
