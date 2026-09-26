@@ -69,7 +69,7 @@
    (padded 2 (date-month today)) "月"
    (padded 2 (date-day today)) "日 生成<br/>" nl
    desc " " (length files) "種類 "
-   "名称未設定: " (no-name files) "件<br/>" nl
+   "名称未設定: " (no-name files) "件<br/>" nl nl
    "    <table>" nl
    "      <tbody>" nl)
   (values))
@@ -78,12 +78,13 @@
   (SHOW "<tr>" nl)
   (for-each
    (lambda (file)
-     (SHOW "<td>" nl)
+     (SHOW "<td style=\"padding: 10px;\">" nl)
      (when file
        (SHOW
         "  <img width=\"180px\" src=\"" (txt->png file) "\"><br/>" nl
-        "  " (numeric/comma (png->num file)) "<br/>" nl
-        "  <span>" (or (name? file) "") "</span>"))
+        "  <span style=\"font-size: small;\">"
+        "  " (numeric/comma (png->num file)) " " (or (name? file) "")
+        "</span>" nl))
      (SHOW "</td>" nl))
    files)
   (SHOW "</tr>" nl)
