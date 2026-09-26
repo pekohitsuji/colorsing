@@ -13,6 +13,7 @@
 
 [全種](gift-list.md)
 / [70コイン以上](gift-list-effect.md)
+/ [70〜999コインのギフト分類](gift-list-kind.html)
 / よこたん [バレンタイン2026](gift-list-valentine-2026.md)
 
 ## 課金
