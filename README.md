@@ -18,7 +18,7 @@
 
 ## ギフト（段組）
 [全種](gift-list5.html)
-/ [70コイン以上](gift-list5-effect.md)
+/ [70コイン以上](gift-list5-effect.html)
 
 ## 課金
 [ColorSing](https://web.colorsing.com/)
