@@ -16,6 +16,7 @@ MD2HTML := sed 's/\.md"/.html"/g'
 
 GIFT_HTML := gift-list.html \
              gift-list-effect.html \
+             gift-list5-effect.html \
              gift-list-valentine-2026.html
 
 GIFT_MD := $(patsubst %.html, %.md, $(GIFT_HTML))
@@ -69,11 +70,14 @@ gift-list.html: gift-list.md
 gift-list.md: $(wildcard $(patsubst %.png, %.txt, $(GIFT_LIST)))
 	$(GIFT) "全種" $(GIFT_LIST) | $(FILTER) > $@
 
-gift-list-effect.html: gift-list-effect.md
+gift-list-effect.html : gift-list-effect.md
 	$(TRANS) --metadata title="70コイン以上" $< > $@
 
-gift-list-effect.md: $(wildcard $(patsubst %.png, %.txt, $(GIFT_LIST_EFFECT)))
+gift-list-effect.md : $(wildcard $(patsubst %.png, %.txt, $(GIFT_LIST_EFFECT)))
 	$(GIFT) "70コイン以上" $(GIFT_LIST_EFFECT) | $(FILTER) > $@
+
+gift-list5-effect.html : $(wildcard $(patsubst %.png, %.txt, $(GIFT_LIST_EFFECT)))
+	gosh ./gift-list5 "70コイン以上" < $(GIFT_LIST_EFFECT) > $@
 
 gift-list-valentine-2026.html: gift-list-valentine-2026.md
 	$(TRANS) --metadata title="よこたんバレンタイン2026" $< > $@

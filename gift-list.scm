@@ -21,12 +21,10 @@
   (string->number (substring file 9 14)))
 
 (define (png->txt file)
-  (string-append (substring file 0 19) "txt")
-  )
+  (string-append (substring file 0 19) "txt"))
 
 (define (txt->png file)
-  (string-append (substring file 0 19) "png")
-  )
+  (string-append (substring file 0 19) "png"))
 
 (define (name? file)
   (and (file-is-readable? file)
