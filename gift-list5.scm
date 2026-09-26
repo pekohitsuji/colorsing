@@ -88,9 +88,9 @@
               (if (< 20 (hankaku-width name))
                   "  <span style=\"font-size: small;\">"
                   "  <span>")
-              name
-              "</span><br/>" nl
-              "  " (numeric/comma (png->num file)) nl))
+              name "</span><br/>" nl
+              "  <span style=\"font-weight: bold;\">"
+              (numeric/comma (png->num file)) "</span>" nl))
            (SHOW "</td>" nl))
          (SHOW "<td></td>" nl)))
    files)
